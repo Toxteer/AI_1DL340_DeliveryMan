@@ -1,13 +1,9 @@
 # A* Delivery Man Algorithm Benchmark
-# Performance testing tool for the A* pathfinding implementation
 # Goal: Validate performance ≤180 turns within 4 minutes execution time
 
 library("DeliveryMan")
+source("astar_delivery.r") 
 
-# Source the A* algorithm
-source("astar_delivery.r")
-
-# Configuration
 NUM_RUNS <- 10  # Change this value to adjust number of benchmark runs
 
 cat("A* Delivery Man Algorithm Benchmark\n")
