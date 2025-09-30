@@ -1,0 +1,23 @@
+# R specific files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Output files
+*.csv
+*.pdf
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*~
+*.tmp
+*.swp
